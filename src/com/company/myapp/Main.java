@@ -5,16 +5,40 @@ import com.company.calcengine.Adder;
 import com.company.calcengine.CalculateBase;
 import com.company.calcengine.CalculateHelper;
 import com.company.calcengine.Divider;
+import com.company.calcengine.DynamicHelper;
 import com.company.calcengine.InvalidStatementException;
 import com.company.calcengine.MathEquation;
+import com.company.calcengine.MathProcessing;
 import com.company.calcengine.Multiplyer;
+import com.company.calcengine.PowerOf;
 import com.company.calcengine.Subtracter;
 
 public class Main {
 
 
-	public static void main(String[] args){
+	public static void main(String[] args) {
+		//useMathEquation();
+		//useCalulatorBase();
+		//useCalculatorHelper();
 
+		String[] statements = {
+				"add 25.0 92.0",
+				"power 5.0 2.0" // 5.0 ^ 2.0 = 25.0
+		};
+
+		DynamicHelper helper = new DynamicHelper(new MathProcessing[] {
+				new Adder(),
+				new PowerOf()
+				});
+
+			for(String statement:statements) {
+				String output = helper.process(statement);
+				System.out.println(output);
+			}
+		}
+
+
+	static void useCaluculateHelper(){
 		String[] statements = {
 				"add 1.0",  //error
 				"add xx 25.0", //error

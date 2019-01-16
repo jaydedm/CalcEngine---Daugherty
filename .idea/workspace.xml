@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CalcEngine:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c8e6cc-cfcb-4c5c-b432-70d3ebfe9ba4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/calcengine/DynamicHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/calcengine/MathProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/calcengine/PowerOf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/Adder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/CalculateBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/CalculateBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/CalculateHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/CalculateHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/Divider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/Divider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/InvalidStatementException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/InvalidStatementException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/MathCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/MathCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/MathEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/MathEquation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/Multiplyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/Multiplyer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/Subtracter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/Subtracter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalcEngine/com/company/CalcEngine/Adder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalcEngine/com/company/CalcEngine/Adder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CalcEngine/com/company/myapp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalcEngine/com/company/myapp/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/calcengine/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/Adder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/myapp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/myapp/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/myapp/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+            <state relative-caret-position="319">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,10 +41,73 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/PowerOf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+              <folding>
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/CalculateHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-952">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="171">
+              <caret line="87" selection-start-line="87" selection-end-line="95" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/MathProcessing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/Adder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="17" />
+              <folding>
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/DynamicHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="579">
+              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+              <folding>
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/CalculateBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -62,6 +127,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -86,15 +152,19 @@
         <option value="$PROJECT_DIR$/src/com/company/myapp/CalcEngine/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/CalcEngine/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/CalcEngine/MathCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/company/calcengine/MathProcessing.java" />
+        <option value="$PROJECT_DIR$/src/com/company/calcengine/DynamicHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/company/calcengine/Adder.java" />
+        <option value="$PROJECT_DIR$/src/com/company/calcengine/PowerOf.java" />
         <option value="$PROJECT_DIR$/src/com/company/myapp/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1144" />
-    <option name="y" value="28" />
+    <option name="x" value="1054" />
+    <option name="y" value="29" />
     <option name="width" value="881" />
-    <option name="height" value="1020" />
+    <option name="height" value="1022" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -113,6 +183,18 @@
               <item name="CalcEngine" type="58d84e3e:PackageViewProjectNode" />
               <item name="CalcEngine" type="616d4139:PackageViewModuleNode" />
               <item name="com.company" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="CalcEngine" type="58d84e3e:PackageViewProjectNode" />
+              <item name="CalcEngine" type="616d4139:PackageViewModuleNode" />
+              <item name="com.company" type="1f31426a:PackageElementNode" />
+              <item name="calcengine" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="CalcEngine" type="58d84e3e:PackageViewProjectNode" />
+              <item name="CalcEngine" type="616d4139:PackageViewModuleNode" />
+              <item name="com.company" type="1f31426a:PackageElementNode" />
+              <item name="myapp" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -133,7 +215,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547670502920" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547673662231" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
@@ -195,10 +277,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1059" y="14" width="881" height="1020" extended-state="0" />
+    <frame x="1054" y="29" width="881" height="1022" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26187575" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26187575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -208,7 +290,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35287485" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.352081" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39855072" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -244,6 +326,12 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/calcengine/DynamicHelper.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -269,13 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/CalculateHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-952">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/MathCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -283,15 +364,152 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/CalculateBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/CalculateHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="87" selection-start-line="87" selection-end-line="95" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/DynamicHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/MathProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/Adder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/PowerOf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/myapp/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+        <state relative-caret-position="319">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>CalcEngine:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CalcEngine</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
