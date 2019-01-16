@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2c8e6cc-cfcb-4c5c-b432-70d3ebfe9ba4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalcEngine/com/company/CalcEngine/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CalcEngine/com/company/CalcEngine/MathCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CalcEngine/com/company/CalcEngine/MathCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/myapp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/MathCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CalcEngine/MathCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/Adder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/CalculateBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/CalculateBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/CalculateHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/CalculateHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/Divider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/Divider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/InvalidStatementException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/InvalidStatementException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/MathCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/MathCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/MathEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/MathEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/Multiplyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/Multiplyer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CalcEngine/Subtracter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calcengine/Subtracter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/myapp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/myapp/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/myapp/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="97" column="35" lean-forward="true" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
+            <state relative-caret-position="238">
+              <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,7 +39,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/CalcEngine/CalculateHelper.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/CalculateHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-952">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
@@ -44,7 +48,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/CalcEngine/MathCommand.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/MathCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
@@ -81,14 +85,14 @@
         <option value="$PROJECT_DIR$/src/com/company/CalcEngine/CalculateHelper.java" />
         <option value="$PROJECT_DIR$/src/com/company/myapp/CalcEngine/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/CalcEngine/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/myapp/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/CalcEngine/MathCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/company/myapp/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1059" />
-    <option name="y" value="14" />
+    <option name="x" value="1144" />
+    <option name="y" value="28" />
     <option name="width" value="881" />
     <option name="height" value="1020" />
   </component>
@@ -110,12 +114,6 @@
               <item name="CalcEngine" type="616d4139:PackageViewModuleNode" />
               <item name="com.company" type="1f31426a:PackageElementNode" />
             </path>
-            <path>
-              <item name="CalcEngine" type="58d84e3e:PackageViewProjectNode" />
-              <item name="CalcEngine" type="616d4139:PackageViewModuleNode" />
-              <item name="com.company" type="1f31426a:PackageElementNode" />
-              <item name="CalcEngine" type="1f31426a:PackageElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -135,8 +133,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547670021966" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547670502920" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
@@ -257,7 +258,7 @@
     <entry file="file://C:/../../DU Finished Work/CalcEngine/src/com/company/CalcEngine/MathCommand.java" />
     <entry file="file://C:/../../DU Finished Work/CalcEngine/src/com/company/CalcEngine/CalculateHelper.java" />
     <entry file="file://C:/../../DU Finished Work/CalcEngine/src/com/company/CalcEngine/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/CalcEngine/InvalidStatementException.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/InvalidStatementException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
@@ -268,14 +269,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/CalcEngine/CalculateHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/CalculateHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-952">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/CalcEngine/MathCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/calcengine/MathCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
@@ -284,8 +285,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/myapp/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="97" column="35" lean-forward="true" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
+        <state relative-caret-position="238">
+          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

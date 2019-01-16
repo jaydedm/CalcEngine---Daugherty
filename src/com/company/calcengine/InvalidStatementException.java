@@ -1,4 +1,4 @@
-package com.company.CalcEngine;
+package com.company.calcengine;
 
 public class InvalidStatementException extends Exception {
     public InvalidStatementException(String reason, String statement){

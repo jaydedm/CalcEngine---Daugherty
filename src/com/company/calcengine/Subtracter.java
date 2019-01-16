@@ -1,4 +1,4 @@
-package com.company.CalcEngine;
+package com.company.calcengine;
 
 public class Subtracter extends CalculateBase{
     public Subtracter(){}
