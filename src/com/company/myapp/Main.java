@@ -1,4 +1,14 @@
-package com.company.CalcEngine;
+package com.company.myapp;
+
+
+import com.company.CalcEngine.Adder;
+import com.company.CalcEngine.CalculateBase;
+import com.company.CalcEngine.CalculateHelper;
+import com.company.CalcEngine.Divider;
+import com.company.CalcEngine.InvalidStatementException;
+import com.company.CalcEngine.MathEquation;
+import com.company.CalcEngine.Multiplyer;
+import com.company.CalcEngine.Subtracter;
 
 public class Main {
 
