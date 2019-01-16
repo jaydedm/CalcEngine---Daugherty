@@ -6,6 +6,9 @@ public class Main {
 	public static void main(String[] args){
 
 		String[] statements = {
+				"add 1.0",  //error
+				"add xx 25.0", //error
+				"addX 0.0 0.0", //error
 				"Divide 100.0 50.0",  //100.0 /50.0 =2.0
 				"Add 25.0 92.0",	  //
 				"Subtract 225.0 17.0",
@@ -14,8 +17,15 @@ public class Main {
 
 		CalculateHelper helper = new CalculateHelper();
 		for(String statement:statements) {
-			helper.process(statement);
-			System.out.println(helper);
+			try {
+				helper.process(statement);
+				System.out.println(helper);
+			} catch(InvalidStatementException e) {
+				System.out.println(e.getMessage());
+				if(e.getCause() != null)
+					System.out.println("  Original exception: " + e.getCause().getMessage());
+
+			}
 		}
 	}
 
